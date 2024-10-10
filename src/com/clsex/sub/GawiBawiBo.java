@@ -32,6 +32,46 @@ public class GawiBawiBo {
 		int lose = 0;
 		int draw = 0;
 		
+<<<<<<< HEAD
+		System.out.println("게임을 시작합니다.");
+		while(game) {
+		int com = (int)(Math.random() * 3); 
+		if(id.equals("a") && pa.equals("b")) {
+			System.out.println("가위(0) 바위(1) 보(2) 중 하나 입력하세요..");
+			int yoursel = Integer.parseInt(sc.next());
+			System.out.println("유저 : " + yoursel + " 컴퓨터 : " + com);
+			if(yoursel <= 2) {
+				if(yoursel == com) {
+					System.out.println("비겼습니다.");
+					System.out.println("총 게임 수 : " + totalGame++);
+					draw++;
+				}else if(yoursel <= com) {
+					System.out.println("졌습니다.");
+					System.out.println("총 게임 수 : " + totalGame++);
+					lose++;
+				}else if(yoursel >= com) {
+					System.out.println("이겼습니다.");
+					System.out.println("총 게임 수 : " + totalGame++);
+					win++;
+				}System.out.println("게임을 계속 하시려면 y를 종료하시려면 n을 입력하세요.");
+			}else {
+				System.out.println("잘못된 값입니다. 다시 입력하세요");
+			}String yourtext = sc.next();
+			if(yourtext.equals("y")) {
+				System.out.println("게임이 다시 시작 됩니다.");
+			}else if(yourtext.equals("n")) {
+				System.out.printf("총 게임 수 : %d 승리 : %d 패배 : %d 무승부 : %d\n", totalGame, win, lose, draw);
+				break;
+			}
+		}else {
+			System.out.println("잘못되었습니다. 게임이 종료됩니다.");
+			game = false;
+		}
+	}
+		
+	}
+}
+=======
 		//System.out.printf("총 게임 수 : %d 승률 : %.2f %",totalGame, rating);
 		System.out.println("게임을 시작합니다.");
 		while(game) {
@@ -72,3 +112,4 @@ public class GawiBawiBo {
 		
 	}
 }
+>>>>>>> refs/remotes/origin/master

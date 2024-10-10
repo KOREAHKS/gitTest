@@ -22,7 +22,11 @@ public class ArrayEx1 {
 		
 		//2.{}를 이용해서 값으로 초기화 된 배열을 생성한다.
 		int[] inArr2 = {1,2,3};
+<<<<<<< HEAD
+		System.out.println("======" + inArr2);
+=======
 		System.out.println(inArr2);
+>>>>>>> refs/remotes/origin/master
 		
 		//3.위 두개의 생성식을 하나로 합친문법
 		int inArr3[] = new int[] {10,20,30};

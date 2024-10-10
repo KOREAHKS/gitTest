@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
 <<<<<<< HEAD
+	<name>myjava</name>
+=======
+<<<<<<< HEAD
 	<name>myJava</name>
 =======
 	<name>egitTest</name>
+>>>>>>> refs/remotes/origin/master
 >>>>>>> refs/remotes/origin/master
 	<comment></comment>
 	<projects>

@@ -1,0 +1,5 @@
+1 {"pno":1, "name":"상품1", "compayny":"삼성", "price":20000}
+2 {"pno":2, "name":"상품2", "compayny":"LG", "price":10000}
+3 {"pno":3, "name":"상품3", "compayny":"삼성", "price":25500}
+4 {"pno":4, "name":"상품4", "compayny":"LG", "price":70000}
+5 {"pno":5, "name":"상품5", "compayny":"위니아", "price":50000}
